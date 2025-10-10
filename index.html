@@ -1,362 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Sayan Chakraborty Portfolio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+<head>
+	<title>Sayan Chakraborty Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="css/aos.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/aos.css">
+
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
 
 
 
-<style>
-
-/*======================================
+	<style>
+		/*======================================
 //--//-->   ABOUT
 ======================================*/
 
-.about-mf .box-shadow-full {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
+		.about-mf .box-shadow-full {
+			padding-top: 4rem;
+			padding-bottom: 4rem;
+		}
 
-.about-mf .about-img {
-  margin-bottom: 2rem;
-}
+		.about-mf .about-img {
+			margin-bottom: 2rem;
+		}
 
-.about-mf .about-img img {
-  margin-left: 10px;
-}
-
-
-.skill-mf .progress {
-  /* background-color: #cde1f8; */
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
-}
-
-.skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: #ffbd39;
-}
+		.about-mf .about-img img {
+			margin-left: 10px;
+		}
 
 
-/* Animation styles */
-#typing-animation {
-  position: relative;
-  font-size: 30px;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3s steps(20, end) infinite;
-}
+		.skill-mf .progress {
+			/* background-color: #cde1f8; */
+			margin: .5rem 0 1.2rem 0;
+			border-radius: 0;
+			height: .7rem;
+		}
 
-#typing-animation:before {
-  content: "";
-  /* position: absolute; */
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background-color: #ccc;
-  animation: typing-cursor 0.5s ease-in-out infinite;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes typing-cursor {
-  from {
-    width: 5px;
-  }
-  to {
-    width: 0;
-  }
-}
+		.skill-mf .progress .progress-bar {
+			height: .7rem;
+			background-color: #ffbd39;
+		}
 
 
-/* project image zoom effect */
+		/* Animation styles */
+		#typing-animation {
+			position: relative;
+			font-size: 30px;
+			font-weight: bold;
+			color: rgb(255, 255, 255);
+			overflow: hidden;
+			white-space: nowrap;
+			animation: typing 3s steps(20, end) infinite;
+		}
 
-.zoom-effect {
-  overflow: hidden;
-  transition: transform 0.3s ease-out;
-}
+		#typing-animation:before {
+			content: "";
+			/* position: absolute; */
+			top: 0;
+			left: 0;
+			width: 0;
+			height: 100%;
+			background-color: #ccc;
+			animation: typing-cursor 0.5s ease-in-out infinite;
+		}
 
-.zoom-effect:hover {
-  transform: scale(1.1);
-}
+		@keyframes typing {
+			from {
+				width: 0;
+			}
 
-/* resume button style */
-.button-85 {
-	height: 80px;
-	width: 250px;
-	font-size: x-large;
+			to {
+				width: 100%;
+			}
+		}
 
-  padding: 0.6em 2em;
-  border: none;
-  outline: none;
-  color: rgb(255, 255, 255);
-  background: #111;
-  cursor: pointer;
-  position: relative;
-  z-index: 0;
-  border-radius: 15px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
+		@keyframes typing-cursor {
+			from {
+				width: 5px;
+			}
 
-.button-85:before {
-  content: "";
-  background: linear-gradient(
-    45deg,
-    #ff0000,
-    #ff7300,
-    #fffb00,
-    #48ff00,
-    #00ffd5,
-    #002bff,
-    #7a00ff,
-    #ff00c8,
-    #ff0000
-  );
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  background-size: 400%;
-  z-index: -1;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  animation: glowing-button-85 20s linear infinite;
-  transition: opacity 0.3s ease-in-out;
-  border-radius: 10px;
-}
-
-@keyframes glowing-button-85 {
-  0% {
-    background-position: 0 0;
-  }
-  50% {
-    background-position: 400% 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
-}
-
-.button-85:after {
-  z-index: -1;
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #222;
-  left: 0;
-  top: 0;
-  border-radius: 10px;
-}
-
-</style>
+			to {
+				width: 0;
+			}
+		}
 
 
-  </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-	  
-	  
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Sayan Chakraborty</a>
-	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
+		/* project image zoom effect */
 
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
-	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
-	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-	  <section id="home-section" class="hero">
-		  <div class="home-slider  owl-carousel">
-	       <div class="slider-item ">
-	      	<div class="overlay"></div>
-	         <div class="container">
-	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_2.png);">
-	          	 <div class="overlay"></div>
-	          	</div>
-		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text">
-		          		<span class="subheading">Hello!</span>
-			            <h1 class="mb-4 mt-3">I'm <span>Sayan Chakraborty</span></h1>
+		.zoom-effect {
+			overflow: hidden;
+			transition: transform 0.3s ease-out;
+		}
 
-						<!-- Element to contain animated typing -->
-						<span id="typing-animation"></span>
+		.zoom-effect:hover {
+			transform: scale(1.1);
+		}
 
-						<script>
+		/* resume button style */
+		.button-85 {
+			height: 80px;
+			width: 250px;
+			font-size: x-large;
 
-						// Initialize the typing animation
-						const typingAnimationElement = document.getElementById('typing-animation');
+			padding: 0.6em 2em;
+			border: none;
+			outline: none;
+			color: rgb(255, 255, 255);
+			background: #111;
+			cursor: pointer;
+			position: relative;
+			z-index: 0;
+			border-radius: 15px;
+			user-select: none;
+			-webkit-user-select: none;
+			touch-action: manipulation;
+		}
 
-						// Create an array of typing text
-						const typingTexts = [
-						'Software Engineer',
-						'Enthusiastic MERN Stack Developer',
-						'Full Stack Developer',
-						
-						];
+		.button-85:before {
+			content: "";
+			background: linear-gradient(45deg,
+					#ff0000,
+					#ff7300,
+					#fffb00,
+					#48ff00,
+					#00ffd5,
+					#002bff,
+					#7a00ff,
+					#ff00c8,
+					#ff0000);
+			position: absolute;
+			top: -2px;
+			left: -2px;
+			background-size: 400%;
+			z-index: -1;
+			filter: blur(5px);
+			-webkit-filter: blur(5px);
+			width: calc(100% + 4px);
+			height: calc(100% + 4px);
+			animation: glowing-button-85 20s linear infinite;
+			transition: opacity 0.3s ease-in-out;
+			border-radius: 10px;
+		}
 
-						// Create a function to display the typing animation for a given text
-						function playTypingAnimation(text) {
-						// Loop through each character and add it to the element
-						for (let i = 0; i < text.length; i++) {
-							setTimeout(() => {
-							typingAnimationElement.textContent += text[i];
-							}, i * 200); // Increase the delay to slow down the typing animation
-						}
+		@keyframes glowing-button-85 {
+			0% {
+				background-position: 0 0;
+			}
 
-						// Once the animation is complete, reset the text and start over
-						setTimeout(() => {
-							typingAnimationElement.textContent = '';
-							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-						}, text.length * 200);
-						}
+			50% {
+				background-position: 400% 0;
+			}
 
-						// Start the typing animation loop
-						playTypingAnimation(typingTexts[0]);
+			100% {
+				background-position: 0 0;
+			}
+		}
 
-						</script>
+		.button-85:after {
+			z-index: -1;
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: #222;
+			left: 0;
+			top: 0;
+			border-radius: 10px;
+		}
+	</style>
 
-						<br>
-						<br>
-			            <h2>Crafting Intuitive User Experiences</h2>
-						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
-						<!-- <br> -->
-			            <p><a href="https://codewithsayan.hashnode.dev/" class="btn btn-primary py-3 px-4">My Blog</a> 
-							<a href="https://github.com/Sayan447" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
-		            </div>
-		          </div>
-	        	</div>
-	        </div>
-	      </div>
+
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Sayan Chakraborty</a>
+			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+					<li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+				</ul>
+			</div>
 		</div>
-    </section>
+	</nav>
+	<section id="home-section" class="hero">
+		<div class="home-slider  owl-carousel">
+			<div class="slider-item ">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
+						data-scrollax-parent="true">
+						<div class="one-third js-fullheight order-md-last img"
+							style="background-image:url(images/bg_2.png);">
+							<div class="overlay"></div>
+						</div>
+						<div class="one-forth d-flex  align-items-center ftco-animate"
+							data-scrollax=" properties: { translateY: '70%' }">
+							<div class="text">
+								<span class="subheading">Hello!</span>
+								<h1 class="mb-4 mt-3">I'm <span>Sayan Chakraborty</span></h1>
+
+								<!-- Element to contain animated typing -->
+								<span id="typing-animation"></span>
+
+								<script>
+
+									// Initialize the typing animation
+									const typingAnimationElement = document.getElementById('typing-animation');
+
+									// Create an array of typing text
+									const typingTexts = [
+										'Software Engineer',
+										'Enthusiastic MERN Stack Developer',
+										'Full Stack Developer',
+
+									];
+
+									// Create a function to display the typing animation for a given text
+									function playTypingAnimation(text) {
+										// Loop through each character and add it to the element
+										for (let i = 0; i < text.length; i++) {
+											setTimeout(() => {
+												typingAnimationElement.textContent += text[i];
+											}, i * 200); // Increase the delay to slow down the typing animation
+										}
+
+										// Once the animation is complete, reset the text and start over
+										setTimeout(() => {
+											typingAnimationElement.textContent = '';
+											playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+										}, text.length * 200);
+									}
+
+									// Start the typing animation loop
+									playTypingAnimation(typingTexts[0]);
+
+								</script>
+
+								<br>
+								<br>
+								<h2>Crafting Intuitive User Experiences</h2>
+								<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
+								<!-- <br> -->
+								<p><a href="https://codewithsayan.hashnode.dev/" class="btn btn-primary py-3 px-4">My
+										Blog</a>
+									<a href="https://github.com/Sayan447"
+										class="btn btn-white btn-outline-white py-3 px-4">My works</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 
-    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
-    	<div class="container">
+	<section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+		<div class="container">
 			<div class="row">
 				<div class="row d-flex align-items-stretch">
-				<!-- <div class="row d-flex"> -->
+					<!-- <div class="row d-flex"> -->
 					<div class="col-md-6 col-lg-5 d-flex">
 						<div class="img-about img d-flex align-items-stretch">
 							<div class="overlay">
 								<div class="row">
 									<div class="col-sm-6 col-md-5">
-									  <div class="about-img">
-										<img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt="">
-									  </div>
+										<div class="about-img">
+											<img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt="">
+										</div>
 									</div>
 									<!-- Details next to profile image -->
 									<div class="col-sm-6 col-md-7">
-									  <div class="about-info">
-										<p><span class="title-s">Name: </span> <span>Sayan Chakraborty</span></p>
-										
-										<p><span class="title-s">Experience: </span> <span>Fresher</span></p>
-										<p><span class="title-s">Address: </span> <span>Kolkata, India</span></p>
-									  </div>
+										<div class="about-info">
+											<p><span class="title-s">Name: </span> <span>Sayan Chakraborty</span></p>
+
+											<p><span class="title-s">Experience: </span> <span>Fresher</span></p>
+											<p><span class="title-s">Address: </span> <span>Kolkata, India</span></p>
+										</div>
 									</div>
-								  </div>
+								</div>
 
 								<div class="skill-mf">
 									<p class="title-s">Skills</p>
 									<span>SQL</span> <span class="pull-right"></span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 60%;"
+											aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
 									</div>
-									
+
 									<span>Node.js</span> <span class="pull-right"></span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 72%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 72%"
+											aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
 									</div>
-									
+
 									<span>MongoDb</span> <span class="pull-right"></span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 76%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 76%"
+											aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
 									</div>
-									
+
 									<span>Express</span> <span class="pull-right"></span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 75%"
+											aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
 									</div>
-									
+
 									<span>JavaScript</span> <span class="pull-right"></span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 64%" aria-valuenow="80" aria-valuemin="0"
-											aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 64%"
+											aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
 									</div>
 
 									<span>React.js</span> <span class="pull-right"></span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="80" aria-valuemin="0"
-											aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 65%"
+											aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					
+
 					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
 						<div class="row justify-content-start pb-3">
 							<div class="col-md-12 heading-section ftco-animate">
-								
+
 								<h1 class="big">About</h1>
 								<h2 class="mb-4">About Me</h2>
-								
-								
+
+
 								<ul class="about-info mt-4 px-md-0 px-2">
-									<li class="d-flex"><span>Profile:</span> <span>Mern Stack Developer &amp; Programmer(Fresher)</span></li>
-									<li class="d-flex"><span>Education:</span> <span>Bachelor of Technology(B.tech)</span></li>
+									<li class="d-flex"><span>Profile:</span> <span>Mern Stack Developer &amp;
+											Programmer(Fresher)</span></li>
+									<li class="d-flex"><span>Education:</span> <span>Bachelor of
+											Technology(B.tech)</span></li>
 									<li class="d-flex"><span>Language:</span> <span>English, Hindi ,Bengali</span></li>
 									<li class="d-flex"><span>OS:</span> <span>Windows</span></li>
-									<li class="d-flex"><span>Software tools:</span> <span>Pycharm, VScode, Jupiter Notebook, Github,Postman,Atlas(mongodb)</span></li>
-									<li class="d-flex"><span>Interest:</span> <span>Traveling, Travel Photography, Gardening</span></li>
-									
+									<li class="d-flex"><span>Software tools:</span> <span>Pycharm, VScode, Jupiter
+											Notebook, Github,Postman,Atlas(mongodb)</span></li>
+									<li class="d-flex"><span>Interest:</span> <span>Traveling, Travel Photography,
+											Gardening</span></li>
+
 								</ul>
 							</div>
 						</div>
@@ -364,258 +377,307 @@
 
 						<div class="counter-wrap ftco-animate d-flex mt-md-3">
 							<div class="text">
-								
-								<p><a href="https://www.linkedin.com/in/sayan-chakraborty-869330197/" class="button-85 py-3 px-3">LinkedIn</a></p>
+
+								<p><a href="https://www.linkedin.com/in/sayan-chakraborty-869330197/"
+										class="button-85 py-3 px-3">LinkedIn</a></p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-    </section>
+	</section>
 
 
 
-	
-    <section class="ftco-section ftco-no-pb" id="resume-section">
-    	<div class="container">
-    		<div class="row justify-content-center pb-5">
-          <div class="col-md-10 heading-section text-center ftco-animate">
-          	<h1 class="big big-2">Resume</h1>
-            <h2 class="mb-4">Resume</h2>
-            <p>(Fresher) Throughout my studies, I have taken coding courses and pursued personal projects that have allowed me to develop proficiency in a range of programming languages, including MongoDb,Node,JS,Reactjs.</p>
-          </div>
-        </div>
 
-
-		<!-- Resume button -->
-		<div class="text-center ">
-			<a href="https://drive.google.com/file/d/1BCT6977OUoG9L1Hm-HIji_-am9Vz_pKF/view?usp=sharing" class="button-85">Resume</a>
-		</div>
-
-		
-		<br>
-
-
-		<br>
-		<br>
-
-		<div class="row">
-			<h1 class="big-4">Education</h1>
-			<div class="underline"></div>
-		</div>
-		<br>
-		
-			<div class="row">
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">2017-2021</span>
-    					<h2>Bachelor of Technology(B.Tech)</h2>
-    					<span class="position">Narula Institute of Technology</span>
-    					<p class="mt-4">Grade: First class(DGPA: 7.88)</p>
-    				</div>
-    			</div>
-
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">2016-2017</span>
-    					<h2>Higher Secondary School</h2>
-    					<span class="position">Manmathanath High School(Govt)</span>
-    					<p class="mt-4">Percentage: 72.4%</p>
-    				</div>
+	<section class="ftco-section ftco-no-pb" id="resume-section">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-10 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Resume</h1>
+					<h2 class="mb-4">Resume</h2>
+					<p>(Fresher) Throughout my studies, I have taken coding courses and pursued personal projects that
+						have allowed me to develop proficiency in a range of programming languages, including
+						MongoDb,Node,JS,Reactjs.</p>
 				</div>
-    		</div>
+			</div>
 
-    		<div class="row justify-content-center mt-5">
-    			<div class="col-md-6 text-center ftco-animate">
-    				<p><a href="https://drive.google.com/file/d/1BCT6977OUoG9L1Hm-HIji_-am9Vz_pKF/view?usp=sharing" class="btn btn-primary py-4 px-5">Download CV</a></p>
-    			</div>
-    		</div>
-    	</div>
-    </section>
 
-   
+			<!-- Resume button -->
+			<div class="text-center ">
+				<a href="https://drive.google.com/file/d/1BCT6977OUoG9L1Hm-HIji_-am9Vz_pKF/view?usp=sharing"
+					class="button-85">Resume</a>
+			</div>
 
-    <section class="ftco-section" id="project-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Projects</h1>
-            <h2 class="mb-4">Projects</h2>
-            <p>Below are the Projects based on Frontend.</p>
-          </div>
-        </div>
-        <div class="row d-flex">
-			<!-- project - 1 -->
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/Sayan447/Portfolio/blob/main/images/proj_1.jpg" class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
 
-                <h3 class="heading"><a href="https://movie-finder-ivory-three.vercel.app/">Movie Search Application Using Reactjs called Movieland</a></h3>
-                <p>Movieland is a sleek and intuitive ReactJS-based movie search application, designed to put the power of movie discovery in your hands.</p>
-              </div>
-            </div>
-          </div>
-		  <!-- project 2 -->
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/Sayan447/Portfolio/blob/main/images/proj_2.jpg" class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
+			<br>
 
-                <h3 class="heading"><a href="https://sayan447.github.io/Amazon-Clone-with-Html-and-CSS/">Amazon-Clone-with-Html-and-CSS</a></h3>
-                <p>The Amazon Clone is a front-end project that mimics the look and feel of the Amazon e-commerce platform using only HTML and CSS.</p>
-              </div>
-            </div>
-          </div>
-		  <!-- project - 3 -->
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry">
-              <a href="https://github.com/Sayan447/Portfolio/blob/main/images/proj_3.jpg" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
 
-                <h3 class="heading"><a href="https://spotify-clone-with-react-opal.vercel.app/">Responsive Designed Spotify clone Using Reactjs</a></h3>
-                <p>  we are going to create a music player website like Spotify. Where we can play audio songs online. On this music website we will add some music albums and multiple songs. We can play song online, and we will also create the song controller button. To build this website UI we will use Tailwind CSS..</p>
-              </div>
-            </div>
-          </div>
-        </div>
-		<br>
-		
-    </section>
+			<br>
+			<br>
+
+			<div class="row">
+				<h1 class="big-4">Education</h1>
+				<div class="underline"></div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2017-2021</span>
+						<h2>Bachelor of Technology(B.Tech)</h2>
+						<span class="position">Narula Institute of Technology</span>
+						<p class="mt-4">Grade: First class(DGPA: 7.88)</p>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2016-2017</span>
+						<h2>Higher Secondary School</h2>
+						<span class="position">Manmathanath High School(Govt)</span>
+						<p class="mt-4">Percentage: 72.4%</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center mt-5">
+				<div class="col-md-6 text-center ftco-animate">
+					<p><a href="https://drive.google.com/file/d/1BCT6977OUoG9L1Hm-HIji_-am9Vz_pKF/view?usp=sharing"
+							class="btn btn-primary py-4 px-5">Download CV</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="ftco-section" id="project-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-5">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Projects</h1>
+					<h2 class="mb-4">Projects</h2>
+					<p>Below are the Projects based on Frontend.</p>
+				</div>
+			</div>
+			<div class="row d-flex">
+				<!-- project - 1 -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/Sayan447/Portfolio/blob/main/images/proj_1.jpg"
+							class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a href="https://movie-finder-ivory-three.vercel.app/">Movie Search
+									Application Using Reactjs called Movieland</a></h3>
+							<p>Movieland is a sleek and intuitive ReactJS-based movie search application, designed to
+								put the power of movie discovery in your hands.</p>
+						</div>
+					</div>
+				</div>
+				<!-- project 2 -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/Sayan447/Portfolio/blob/main/images/proj_2.jpg"
+							class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="https://sayan447.github.io/Amazon-Clone-with-Html-and-CSS/">Amazon-Clone-with-Html-and-CSS</a>
+							</h3>
+							<p>The Amazon Clone is a front-end project that mimics the look and feel of the Amazon
+								e-commerce platform using only HTML and CSS.</p>
+						</div>
+					</div>
+				</div>
+				<!-- project - 3 -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry">
+						<a href="https://github.com/Sayan447/Portfolio/blob/main/images/proj_3.jpg"
+							class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a href="https://spotify-clone-with-react-opal.vercel.app/">Responsive
+									Designed Spotify clone Using Reactjs</a></h3>
+							<p> we are going to create a music player website like Spotify. Where we can play audio
+								songs online. On this music website we will add some music albums and multiple songs. We
+								can play song online, and we will also create the song controller button. To build this
+								website UI we will use Tailwind CSS..</p>
+						</div>
+					</div>
+				</div>
+				<!-- project - 4 -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry">
+						<a href="https://github.com/Sayan447/Thirty-Six-Studio-with-GSAP-and-react/blob/main/public/thirtySixStudio.png"
+							class="block-20 zoom-effect" style="background-image: url('images/proj_5.png');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a href="https://thirty-six-studio-with-gsap-and-react-ggru4n8gh.vercel.app/">Responsive
+									Website With (Reactjs + GSAP)</a></h3>
+							<p> A responsive React site brought to life with GSAP — blending code and motion for a dynamic browsing experience. The UI was crafted using Tailwind CSS to ensure clean design, scalability, and rapid development.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+
+	</section>
 
 	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
-      
-	
-	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
+
+
+		<div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
 			<!-- <div class="container"> -->
-				<div class="row justify-content-center">
-					<div class="col-md-7 ftco-animate text-center">
-						<h2>More projects on<span> Github  </span> </h2>
-						<div class="heading"> <h4> I love to solve problems &amp; contribute to the organization </h4>
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>More projects on<span> Github </span> </h2>
+					<div class="heading">
+						<h4> I love to solve problems &amp; contribute to the organization </h4>
 						<br>
 						<!-- <a href="https://github.com/Sayan447" class=" py-4 px-5 button-85">GitHub</a> -->
 						<p><a href="https://github.com/Sayan447" class="btn btn-primary py-3 px-5">GitHub</a></p>
-						</div>
-
-						
-					
 					</div>
+
+
+
 				</div>
+			</div>
 			<!-- </div> -->
 		</div>
 	</section>
 
 
 
-    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-      <div class="container">
-      	<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Contact</h1>
-            <h2 class="mb-4">Contact Me</h2>
-            <p>Below are the details to reach out to me!</p>
-          </div>
-        </div>
-
-        <div class="row d-flex contact-info mb-5">
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-map-signs"></span>
-          		</div>
-          		<h3 class="mb-4">Address</h3>
-	            <p>Kolkata, India</p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-phone2"></span>
-          		</div>
-          		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://0101010101">+91 8617760631</a></p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-paper-plane"></span>
-          		</div>
-          		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:info@yoursite.com">sayanchakraborty734@gmail.com</a></p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-globe"></span>
-          		</div>
-          		<h3 class="mb-4">Download Resume</h3>
-	            <p><a href="https://drive.google.com/file/d/1BCT6977OUoG9L1Hm-HIji_-am9Vz_pKF/view?usp=sharing">resumelink</a></p>
-	          </div>
-          </div>
-
-		  <div class="container">
-			<br>
-			<br>
-			<div class="row justify-content-center">
-				<div class="col-md-7 ftco-animate text-center">
-					<h2>Have a<span> Question?  </span> <a href="https://docs.google.com/forms/d/1gWv-E0wY6303szjfAkt37mEv5U2j_YxL_0fkYTwdjNA/edit" class="button-85">Click Here</a> </h2>
+	<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Contact</h1>
+					<h2 class="mb-4">Contact Me</h2>
+					<p>Below are the details to reach out to me!</p>
 				</div>
 			</div>
-				<br>
+
+			<div class="row d-flex contact-info mb-5">
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-map-signs"></span>
+						</div>
+						<h3 class="mb-4">Address</h3>
+						<p>Kolkata, India</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-phone2"></span>
+						</div>
+						<h3 class="mb-4">Contact Number</h3>
+						<p><a href="tel://0101010101">+91 8617760631</a></p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-paper-plane"></span>
+						</div>
+						<h3 class="mb-4">Email Address</h3>
+						<p><a href="mailto:info@yoursite.com">sayanchakraborty734@gmail.com</a></p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-globe"></span>
+						</div>
+						<h3 class="mb-4">Download Resume</h3>
+						<p><a
+								href="https://drive.google.com/file/d/1BCT6977OUoG9L1Hm-HIji_-am9Vz_pKF/view?usp=sharing">resumelink</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="container">
+					<br>
+					<br>
+					<div class="row justify-content-center">
+						<div class="col-md-7 ftco-animate text-center">
+							<h2>Have a<span> Question? </span> <a
+									href="https://docs.google.com/forms/d/1gWv-E0wY6303szjfAkt37mEv5U2j_YxL_0fkYTwdjNA/edit"
+									class="button-85">Click Here</a> </h2>
+						</div>
+					</div>
+					<br>
 					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
-					  <li class="ftco-animate normal-txt">Find me on  </li>
-					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/sayan-chakraborty-869330197/"><span class="icon-linkedin"></span></a></li>
-					    
-					  <li class="ftco-animate"><a href="https://x.com/protector_1999"><span class="icon-twitter"></span></a></li>
-					  <li class="ftco-animate"><a href="https://github.com/Sayan447"><span class="icon-github"></span></a></li>
-				      <li class="ftco-animate"><a href="https://www.instagram.com/protector_1999/"><span class="icon-instagram"></span></a></li>
+						<li class="ftco-animate normal-txt">Find me on </li>
+						<li class="ftco-animate"><a
+								href="https://www.linkedin.com/in/sayan-chakraborty-869330197/"><span
+									class="icon-linkedin"></span></a></li>
+
+						<li class="ftco-animate"><a href="https://x.com/protector_1999"><span
+									class="icon-twitter"></span></a></li>
+						<li class="ftco-animate"><a href="https://github.com/Sayan447"><span
+									class="icon-github"></span></a></li>
+						<li class="ftco-animate"><a href="https://www.instagram.com/protector_1999/"><span
+									class="icon-instagram"></span></a></li>
 					</ul>
-				<br>
-		   </div>
-   </div>
- </section>
-
-
- 
-	
-    <footer class="ftco-footer ftco-section">
-		<div class="container">
-		  <div class="row">
-			<div class="col-md-12 text-center">
-  
-			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="icon-heart color-danger" aria-hidden="true"></i>
-	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+					<br>
+				</div>
 			</div>
-		  </div>
+	</section>
+
+
+
+
+	<footer class="ftco-footer ftco-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+
+					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						Copyright &copy;
+						<script>document.write(new Date().getFullYear());</script> All rights reserved | <i
+							class="icon-heart color-danger" aria-hidden="true"></i>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					</p>
+				</div>
+			</div>
 		</div>
-	  </footer>
+	</footer>
 
 
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" />
+		</svg></div>
 
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  
-  <script src="js/main.js"></script>
-    
-  </body>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+
+	<script src="js/main.js"></script>
+
+</body>
+
 </html>
